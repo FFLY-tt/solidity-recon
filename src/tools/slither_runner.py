@@ -1,7 +1,7 @@
 import subprocess
 import json
 import os
-from .file_utils import WORKSPACE_DIR
+from src.tools.file_utils import WORKSPACE_DIR
 
 
 def format_slither_report(json_data):
